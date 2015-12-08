@@ -1,7 +1,24 @@
-html, body {
-	background-color: white;
+* {
+	
+	font-family: 'Raleway', sans-serif;
 	
 }
+
+
+.jumbotron {
+	text-align: center;
+	background-image: url("img/header.jpg");
+	background-size: cover;
+}
+
+
+#title {
+	text-align: center;
+}
+
+
+
+
 
 
 
