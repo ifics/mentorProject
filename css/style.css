@@ -7,13 +7,21 @@
 
 .jumbotron {
 	text-align: center;
-	background-image: url("img/header.jpg");
+	background-image: url("/img/header.jpg");
 	background-size: cover;
 }
 
 
 #title {
 	text-align: center;
+}
+
+nav {
+	background-color: black;
+}
+
+.company-name {
+	background-color: black;
 }
 
 
