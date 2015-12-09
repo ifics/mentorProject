@@ -32,13 +32,13 @@ nav {
 }
 
 .nav-pills > li > a {
-      background-color: gray;
+      background:rgba(134, 133, 133, 0.5);
       color: black;
       
     }
 
 .nav-pills > li > a:hover {
-      background-color: #ff0000;
+      background-color: white;
     }
 
 /******** XS Screen Navigation area *********/
