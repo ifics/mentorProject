@@ -4,6 +4,14 @@
 	
 }
 
+/*html, body {
+	height: 100%;
+}
+
+body {
+	padding-bottom: 200px ;
+}*/
+
 /************ Large screen Navigation Area *************/
 
 
@@ -46,7 +54,6 @@ nav {
 .floatL {
 	float: left;
 }
-
 .floatR {
 	float: right;
 }
@@ -77,18 +84,51 @@ nav {
 /******************************/
 
 
+/******** FOOTER *******/
 
-
-
-
-
-/* media queries */
-
-@media only screen and (max-width: 768px){
-
-
+#footer {
+	color: gray;
+	height: 75px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 	
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
