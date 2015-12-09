@@ -7,7 +7,6 @@
 /************ Navigation Area *************/
 
 
-
 nav {
 	background-color: black;
 }
@@ -31,7 +30,15 @@ nav {
 
 }
 
+.nav-pills > li > a {
+      background-color: gray;
+      color: black;
+      
+    }
 
+.nav-pills > li > a:hover {
+      background-color: #ff0000;
+    }
 
 /*********************/
 
