@@ -4,14 +4,36 @@
 	
 }
 
+/************ Navigation Area *************/
+
+
+
+nav {
+	background-color: black;
+}
+
+
 .navbar {
   border-radius: 0 !important;
  
 }
 
-nav {
-	background-color: black;
+#company-name {
+	font-size: 2em;
+	color: orange;
+	padding-top: 20%;
+	font-weight: bolder;
+
 }
+
+.nav-pills {
+	padding: 2% 1%;
+
+}
+
+
+
+/*********************/
 
 .jumbotron {
 	text-align: center;
@@ -19,11 +41,20 @@ nav {
 	background-size: cover;
 }
 
+/*********************/
+
+
+
+
+/********* CONTENT ************/
+
 
 #title {
 	text-align: center;
+	padding-bottom: 3%;
 }
 
+/******************************/
 
 
 
