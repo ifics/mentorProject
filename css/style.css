@@ -4,8 +4,6 @@
 	
 }
 
-
-
 html {
 	position: relative;
 	min-height: 100%;
@@ -15,7 +13,7 @@ body {
 	margin-bottom: 100px;
 }
 
-/************ Large screen Navigation Area *************/
+/************ Navigation Area *************/
 
 
 nav {
@@ -41,6 +39,7 @@ nav {
     width: 500px;
 }
 
+
 .nav-pills {
 	padding: 2% 1%;
 
@@ -58,6 +57,8 @@ nav {
       background-color: white;
 }
 
+
+/************ Buttons *************/
 
 .btn-lg {
 	font-size: .8em;
@@ -99,8 +100,19 @@ nav {
 }
 
 
+.orange {
+	background-color: #BE8261;
+	color: white;
+	font-size: .8em;
+	margin: 20px 20px;
 
-/*********************/
+}
+
+
+/*************************/
+
+
+/*********** JUMBOTRON **********/
 
 .jumbotron {
 	text-align: center;
@@ -127,14 +139,6 @@ nav {
 
 #title > h1 {
 	margin-top: 0;
-}
-
-.orange {
-	background-color: #BE8261;
-	color: white;
-	font-size: .8em;
-	margin: 20px 20px;
-
 }
 
 
