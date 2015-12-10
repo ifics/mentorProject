@@ -5,9 +5,13 @@
 }
 
 body {
-	margin-bottom: 75px;
+	margin-bottom: 50px;
 }
 
+html {
+	position: relative;
+	min-height: 100%;
+}
 
 /************ Large screen Navigation Area *************/
 
@@ -49,11 +53,6 @@ nav {
 
 
 
-/******** XS Screen Navigation area *********/
-
-
-
-
 
 
 /*********************/
@@ -91,10 +90,13 @@ nav {
 /******** FOOTER *******/
 
 #footer {
-	color: gray;
+	background-color: black;
 	height: 50px;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	/*margin-bottom: 20px;
+	margin-top: 20px;*/
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 
 }
 
@@ -134,7 +136,7 @@ nav {
 }
 
 #overlay div {
-     width:300px;
+     width:650px;
      margin: 100px auto;
      background-color: #fff;
      border:1px solid #000;
@@ -146,11 +148,15 @@ nav {
 
 
 
+/********** MEDIA QUERIES ********/
 
 
+@media (max-width: 768px) {
+  #overlay div { width: 350px; }
+}
 
 
-
+/******************************/
 
 
 
