@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="css/style.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-
-
-
+    
+  
+  
     <title>| Mentor |</title>
 
   </head>
@@ -45,7 +45,10 @@
       <h1>100% True!</h1>
       <h1>We do great things!</h1>
       
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+      <p><a href='#' class="btn btn-primary btn-lg" onclick='overlay()' roll="button">Learn More</a></p>
+
+    
+
     </div>
 
     <div class="col-md-12 col-xs-12" id="title">
@@ -109,19 +112,36 @@
   
 
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    
 
     
       
       <div class="navbar navbar-inverse navbar-fixed-bottom">
       <div class="container" id="footer">
+      <div class="footer-links">
+        <ul class="contact-info">
+          <li class="github"><a href="http://github.com">Github</a></li>
+          <li class="twitter"><a href="http://twitter.com">Twitter</a></li>
+        </ul>
+
+      </div>
       &copy; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
       </div>
     </div>
-    
 
-    
+    <!-- MODAL -->
+
+    <div id="overlay">
+     <div>
+          <p>Content you want the user to see goes here.</p>
+          <p>Click here to [<a href='#' onclick='overlay()'>close</a>]</p>
+     </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script src="js/js.js"></script>
+
   </body>
 </html>
 
