@@ -11,6 +11,10 @@ html {
 	min-height: 100%;
 }
 
+body {
+	margin-bottom: 100px;
+}
+
 /************ Large screen Navigation Area *************/
 
 
@@ -85,17 +89,6 @@ nav {
 	width: 100%;
 }
 
-.visible-xs .nav {
-	padding: 0;
-	
-}
-
-.visible-xs {
-	margin: 75px;
-}
-
-
-
 
 
 /*********************/
@@ -127,10 +120,6 @@ nav {
 	background-color: #BE8261;
 }
 
-#content {
-	margin-bottom: 50px;
-}
-
 
 /******************************/
 
@@ -139,10 +128,23 @@ nav {
 
 #footer {
 	background-color: black;
-	height: 50px;
+	height: 75px;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+	display: flex;
+
+}
+
+.copyright {
+	text-align: right;
+	color: white;
+	padding: 30px;
+	
+}
+
+.contact-info {
+	padding: 30px;
 
 }
 
@@ -154,9 +156,11 @@ nav {
 	padding: 0 0 0 30px;
 }
 
-.footer-links > ul > li {
+.footer-links ul li {
 	list-style: none;
 }
+
+
 
 .contact-info li.github a {
 	background-image: url('../img/Github.png');
