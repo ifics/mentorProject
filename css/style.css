@@ -40,11 +40,13 @@ nav {
 .nav-pills {
 	padding: 2% 1%;
 
+
 }
 
 .nav-pills > li > a {
       background:rgba(134, 133, 133, 0.5);
       color: black;
+      padding-left: 30px;
       
     }
 
@@ -56,6 +58,43 @@ nav {
 	padding: 3%;
 }
 
+.btn-lg {
+	color: white;
+	text-transform: uppercase;
+
+}
+
+.full-width {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 30px;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.flex-row div {
+	width: 100%;
+}
+
+.full-width button {
+	width: 100%;
+}
+
+.visible-xs .nav {
+	padding: 0;
+	
+}
+
+.visible-xs {
+	margin: 75px;
+}
+
+
 
 
 
@@ -66,6 +105,8 @@ nav {
 	background-image: url("/img/header.jpg");
 	background-size: cover;
 	margin-bottom: 0%;
+	display: flex;
+	flex-direction: column;
 }
 
 /*********************/
@@ -82,7 +123,7 @@ nav {
 }
 
 
-.orange li.active a {
+.orange {
 	background-color: #BE8261;
 }
 
@@ -141,7 +182,7 @@ nav {
 }
 
 #overlay div {
-     width:650px;
+     width:350px;
      margin: 100px auto;
      background-color: #fff;
      border:1px solid #000;
@@ -156,8 +197,12 @@ nav {
 /********** MEDIA QUERIES ********/
 
 
-@media (max-width: 768px) {
-  #overlay div { width: 350px; }
+@media (min-width: 768px) {
+  #overlay div { width: 650px; }
+}
+
+@media (min-width: 768px) {
+  .full-width { display: none; }
 }
 
 
