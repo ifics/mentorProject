@@ -25,7 +25,7 @@ nav {
 
 #company-name {
 	font-size: 2em;
-	color: orange;
+	color: #FDD78C;
 	padding-top: 20%;
 	font-weight: bolder;
 
@@ -45,6 +45,9 @@ nav {
 .nav-pills > li > a:hover {
       background-color: white;
     }
+
+
+
 
 /******** XS Screen Navigation area *********/
 
@@ -75,6 +78,13 @@ nav {
 	padding-bottom: 3%;
 }
 
+
+.orange li.active a {
+	background-color: #BE8261;
+}
+
+
+
 /******************************/
 
 
@@ -82,7 +92,7 @@ nav {
 
 #footer {
 	color: gray;
-	height: 75px;
+	height: 50px;
 	margin-bottom: 20px;
 	margin-top: 20px;
 
